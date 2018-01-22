@@ -16,6 +16,7 @@ pipeline
 		steps
 		{
 		   echo "bulid"
+	         input 'Waiting for approval'
 		   sh 'mvn clean package'
 
 		}
